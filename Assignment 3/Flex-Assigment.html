@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height:600px;
+            border:1px solid black;
+        }
+        .header{
+            height:20%;
+            background-color: teal;
+        }
+        .footer{
+            height:20%;
+            background-color: teal;
+        }
+        .center{
+            height:60%;
+            background-color: brown;
+            display: flex;
+        }
+        .left{
+            height:100%;
+            width:30%;
+            background-color: coral;
+        }
+        .right{
+            height: 100%;
+            width: 70%;
+            background-color: yellow;
+        }
+        .top{
+            height: 50%;
+            background-color: aqua;
+        }
+        .bottom{
+            height: 50%;
+            background-color: blue;
+            display: flex;
+        }
+        .b1{
+            width: 50%;
+            background-color: #00B2CA;
+        }
+        .b2{
+            width: 50%;
+            background-color: coral;
+        }
+        *{
+            padding:0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 align = "center">Flex Box</h1>
+    <div class="container">
+        <div class="header">
+            <h2 align="center">Header</h2>
+        </div>
+        <div class="center">
+            <div class="left"><h2 align="center">Left</h2></div>
+            <div class="right">
+                <div class="top"><h2 align="center">Top</h2></div>
+                <div class="bottom">
+                    <div class=" b1"><h2 align="center">Bottom Left </h2></div>
+                    <div class=" b2"><h2 align="center">Bottom Right</h2></div>
+                    </div>
+                </div>
+            </div>
+        <div class="footer"><h3 align="center">Footer</h3></div>
+
+        </div>
+    </div>
+</body>
+</html>
